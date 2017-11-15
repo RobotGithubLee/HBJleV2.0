@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\HJBle v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon.png",
+        "source": "E:\\Android\\AndroidStudioProjects\\HJBle v2.0\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\HJBle v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\hongjia.png",
+        "source": "E:\\Android\\AndroidStudioProjects\\HJBle v2.0\\app\\src\\main\\res\\drawable-xxhdpi\\hongjia.png"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\HJBle v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "E:\\Android\\AndroidStudioProjects\\HJBle v2.0\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]
