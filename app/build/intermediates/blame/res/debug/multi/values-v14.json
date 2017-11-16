@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "outputFile": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 227,
+                        "startOffset": 220,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 375
+                        "endOffset": 366
                     }
                 }
             }

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list.xml",
-        "source": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\layout\\list.xml"
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list.xml",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\layout\\list.xml"
     },
     {
-        "merged": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
-        "source": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
     },
     {
-        "merged": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth_control.xml",
-        "source": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\layout\\bluetooth_control.xml"
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth_control.xml",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\layout\\bluetooth_control.xml"
     }
 ]

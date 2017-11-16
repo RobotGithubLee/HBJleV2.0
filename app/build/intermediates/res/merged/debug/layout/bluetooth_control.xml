@@ -20,10 +20,11 @@
 	        android:layout_height="match_parent"
 	        android:layout_weight="4">
 	        
-	        <TextView 
+	        <TextView
+				android:id="@+id/add_log"
 	            android:layout_width="match_parent"
 	            android:layout_height="match_parent"
-	            android:textSize="24sp"
+	            android:textSize="16sp"
 	            android:text="HJ-580日志："/>
 	        
 	         </LinearLayout>
@@ -43,19 +44,262 @@
 	        </LinearLayout>
 	        
     </LinearLayout>
-    
+
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/RT_layout"
-        android:layout_below="@+id/top_layout"
-        android:orientation="vertical">
-    
+		android:orientation="vertical"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentStart="true">
+
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="100dp"
+			android:layout_gravity="center_horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:text="   低头时间："/>
+			<TextView
+				android:id="@+id/TextViewTimeHour1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="时"/>
+			<TextView
+				android:id="@+id/TextViewMin1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="分"/>
+			<TextView
+				android:id="@+id/TextViewSecond1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="秒,  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="百分比"/>
+			<TextView
+				android:id="@+id/TextViewPercent1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+		</LinearLayout>
+
+
+
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="50dp"
+			android:layout_gravity="center_horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp"
+				android:text="低头>30°时间："/>
+			<TextView
+				android:id="@+id/TextViewTimeHour2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="时"/>
+			<TextView
+				android:id="@+id/TextViewMin2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="分"/>
+			<TextView
+				android:id="@+id/TextViewSecond2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="秒,  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="百分比"/>
+			<TextView
+				android:id="@+id/TextViewPercent2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="50dp"
+			android:layout_gravity="center_horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:text="   仰头时间："/>
+			<TextView
+				android:id="@+id/TextViewTimeHour3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="时"/>
+			<TextView
+				android:id="@+id/TextViewMin3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="分"/>
+			<TextView
+				android:id="@+id/TextViewSecond3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="秒,  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="百分比"/>
+			<TextView
+				android:id="@+id/TextViewPercent3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+		</LinearLayout>
+
+
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="50dp"
+			android:layout_gravity="center_horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:text="   平视时间："/>
+			<TextView
+				android:id="@+id/TextViewTimeHour4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="时"/>
+			<TextView
+				android:id="@+id/TextViewMin4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="分"/>
+			<TextView
+				android:id="@+id/TextViewSecond4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="秒,  "/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="百分比"/>
+			<TextView
+				android:id="@+id/TextViewPercent4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dp"
+				android:text="  "/>
+		</LinearLayout>
+
+
+
+
+
 	    <ScrollView 
 	        android:id="@+id/scroll"
 	        android:layout_weight="10"
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
+			android:visibility="gone"
 	        android:scrollbars="vertical">
 	        
 	      <LinearLayout

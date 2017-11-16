@@ -20,21 +20,38 @@ public final class R {
         public static final int icon=0x7f020002;
     }
     public static final class id {
-        public static final int RT_layout=0x7f080003;
-        public static final int Rx=0x7f080007;
-        public static final int Tx=0x7f080008;
-        public static final int about_us=0x7f08000f;
-        public static final int bottom_layout=0x7f080006;
-        public static final int clear_log=0x7f080002;
-        public static final int device_address=0x7f08000c;
-        public static final int device_name=0x7f08000b;
-        public static final int device_record=0x7f08000d;
-        public static final int menu_refresh=0x7f08000e;
+        public static final int RT_layout=0x7f080016;
+        public static final int Rx=0x7f080018;
+        public static final int TextViewMin1=0x7f080005;
+        public static final int TextViewMin2=0x7f080009;
+        public static final int TextViewMin3=0x7f08000d;
+        public static final int TextViewMin4=0x7f080011;
+        public static final int TextViewPercent1=0x7f080007;
+        public static final int TextViewPercent2=0x7f08000b;
+        public static final int TextViewPercent3=0x7f08000f;
+        public static final int TextViewPercent4=0x7f080013;
+        public static final int TextViewSecond1=0x7f080006;
+        public static final int TextViewSecond2=0x7f08000a;
+        public static final int TextViewSecond3=0x7f08000e;
+        public static final int TextViewSecond4=0x7f080012;
+        public static final int TextViewTimeHour1=0x7f080004;
+        public static final int TextViewTimeHour2=0x7f080008;
+        public static final int TextViewTimeHour3=0x7f08000c;
+        public static final int TextViewTimeHour4=0x7f080010;
+        public static final int Tx=0x7f080019;
+        public static final int about_us=0x7f080020;
+        public static final int add_log=0x7f080002;
+        public static final int bottom_layout=0x7f080017;
+        public static final int clear_log=0x7f080003;
+        public static final int device_address=0x7f08001d;
+        public static final int device_name=0x7f08001c;
+        public static final int device_record=0x7f08001e;
+        public static final int menu_refresh=0x7f08001f;
         public static final int scanBt=0x7f080000;
-        public static final int scroll=0x7f080004;
-        public static final int scroll_layout=0x7f080005;
-        public static final int send=0x7f08000a;
-        public static final int sendData=0x7f080009;
+        public static final int scroll=0x7f080014;
+        public static final int scroll_layout=0x7f080015;
+        public static final int send=0x7f08001b;
+        public static final int sendData=0x7f08001a;
         public static final int top_layout=0x7f080001;
     }
     public static final class layout {
@@ -70,15 +87,8 @@ public final class R {
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f040000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f040001;
     }
 }

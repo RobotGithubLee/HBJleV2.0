@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,14 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 92,
-                        "endColumn": 57,
-                        "endOffset": 145
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 151,
-                        "endColumn": 55,
-                        "endOffset": 202
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -45,17 +31,17 @@
                     "startLine": 4,
                     "startColumn": 4,
                     "startOffset": 169,
-                    "endColumn": 42,
-                    "endOffset": 207
+                    "endColumn": 41,
+                    "endOffset": 206
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 702,
-                        "endColumn": 42,
-                        "endOffset": 740
+                        "startOffset": 686,
+                        "endColumn": 41,
+                        "endOffset": 723
                     }
                 }
             },
@@ -63,384 +49,242 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 212,
+                    "startOffset": 211,
                     "endColumn": 66,
-                    "endOffset": 274
+                    "endOffset": 273
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 746,
-                        "endColumn": 66,
-                        "endOffset": 808
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 279,
+                    "startOffset": 278,
                     "endColumn": 47,
-                    "endOffset": 322
+                    "endOffset": 321
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1019,
-                        "endColumn": 47,
-                        "endOffset": 1062
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 327,
+                    "startOffset": 326,
                     "endColumn": 53,
-                    "endOffset": 376
+                    "endOffset": 375
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1068,
-                        "endColumn": 53,
-                        "endOffset": 1117
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 381,
+                    "startOffset": 380,
                     "endColumn": 82,
-                    "endOffset": 459
+                    "endOffset": 458
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 1179,
-                        "endColumn": 82,
-                        "endOffset": 1257
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 464,
+                    "startOffset": 463,
                     "endColumn": 47,
-                    "endOffset": 507
+                    "endOffset": 506
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 1314,
-                        "endColumn": 47,
-                        "endOffset": 1357
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 512,
+                    "startOffset": 511,
                     "endColumn": 44,
-                    "endOffset": 552
+                    "endOffset": 551
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 814,
-                        "endColumn": 44,
-                        "endOffset": 854
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 557,
+                    "startOffset": 556,
                     "endColumn": 64,
-                    "endOffset": 617
+                    "endOffset": 616
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 860,
-                        "endColumn": 64,
-                        "endOffset": 920
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 622,
+                    "startOffset": 621,
                     "endColumn": 46,
-                    "endOffset": 664
+                    "endOffset": 663
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 926,
-                        "endColumn": 46,
-                        "endOffset": 968
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 669,
+                    "startOffset": 668,
                     "endColumn": 48,
-                    "endOffset": 713
+                    "endOffset": 712
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 1587,
-                        "endColumn": 48,
-                        "endOffset": 1631
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 718,
+                    "startOffset": 717,
                     "endColumn": 54,
-                    "endOffset": 768
+                    "endOffset": 767
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 1637,
-                        "endColumn": 54,
-                        "endOffset": 1687
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 773,
+                    "startOffset": 772,
                     "endColumn": 42,
-                    "endOffset": 811
+                    "endOffset": 810
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 1693,
-                        "endColumn": 42,
-                        "endOffset": 1731
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 816,
+                    "startOffset": 815,
                     "endColumn": 42,
-                    "endOffset": 854
+                    "endOffset": 853
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 38,
-                        "startColumn": 4,
-                        "startOffset": 1737,
-                        "endColumn": 42,
-                        "endOffset": 1775
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 859,
+                    "startOffset": 858,
                     "endColumn": 43,
-                    "endOffset": 898
+                    "endOffset": 897
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 974,
-                        "endColumn": 43,
-                        "endOffset": 1013
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 903,
+                    "startOffset": 902,
                     "endColumn": 54,
-                    "endOffset": 953
+                    "endOffset": 952
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 1123,
-                        "endColumn": 54,
-                        "endOffset": 1173
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 958,
+                    "startOffset": 957,
                     "endColumn": 73,
-                    "endOffset": 1027
+                    "endOffset": 1026
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 1424,
-                        "endColumn": 73,
-                        "endOffset": 1493
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1032,
+                    "startOffset": 1031,
                     "endColumn": 57,
-                    "endOffset": 1085
+                    "endOffset": 1084
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 1365,
-                        "endColumn": 57,
-                        "endOffset": 1418
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1090,
+                    "startOffset": 1089,
                     "endColumn": 59,
-                    "endOffset": 1145
+                    "endOffset": 1144
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 1499,
-                        "endColumn": 59,
-                        "endOffset": 1554
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1150,
+                    "startOffset": 1149,
                     "endColumn": 43,
-                    "endOffset": 1189
+                    "endOffset": 1188
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 1269,
-                        "endColumn": 43,
-                        "endOffset": 1308
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1194,
-                    "endLine": 29,
+                    "startOffset": 1193,
+                    "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 1480
+                    "endOffset": 1271
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 192,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 484
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1485,
-                    "endLine": 32,
+                    "startOffset": 1276,
+                    "endLine": 28,
                     "endColumn": 12,
-                    "endOffset": 1640
+                    "endOffset": 1343
                 },
                 "from": {
-                    "file": "E:\\Android\\AndroidStudioProjects\\HBJleV2.0\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 525,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 682
-                    }
+                    "file": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\values\\styles.xml"
                 }
             }
         ]

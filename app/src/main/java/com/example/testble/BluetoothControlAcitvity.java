@@ -69,13 +69,60 @@ public class BluetoothControlAcitvity extends Activity
                 switch (msg.what) {
 					case MSG_DATA_TIME:
 						String strTime = (String)msg.obj;
-						TextView mView = new TextView(context);
-						mView.setText(strTime);
-						LinearLayout layout1 = (LinearLayout)findViewById(R.id.scroll_layout);
-						layout1.addView(mView);
-						scrollView.fullScroll(ScrollView.FOCUS_DOWN);
+
+						String [] timelist = strTime.split(" ");
+						for(int i=0;i<16;i++) {
+							if(timelist[i].length()==1){
+								timelist[i]=" "+timelist[i];
+							}
+						}
+
+						TextView mViewH1 = (TextView)findViewById(R.id.TextViewTimeHour1);
+						mViewH1.setText(timelist[0]);
+						TextView mViewM1 = (TextView)findViewById(R.id.TextViewMin1);
+						mViewM1.setText(timelist[1]);
+						TextView mViewS1 = (TextView)findViewById(R.id.TextViewSecond1);
+						mViewS1.setText(timelist[2]);
 
 
+						TextView mViewH2 = (TextView)findViewById(R.id.TextViewTimeHour2);
+						mViewH2.setText(timelist[3]);
+						TextView mViewM2 = (TextView)findViewById(R.id.TextViewMin2);
+						mViewM2.setText(timelist[4]);
+						TextView mViewS2 = (TextView)findViewById(R.id.TextViewSecond2);
+						mViewS2.setText(timelist[5]);
+
+
+
+						TextView mViewH3 = (TextView)findViewById(R.id.TextViewTimeHour3);
+						mViewH3.setText(timelist[6]);
+						TextView mViewM3 = (TextView)findViewById(R.id.TextViewMin3);
+						mViewM3.setText(timelist[7]);
+						TextView mViewS3 = (TextView)findViewById(R.id.TextViewSecond3);
+						mViewS3.setText(timelist[8]);
+
+
+						TextView mViewH4 = (TextView)findViewById(R.id.TextViewTimeHour4);
+						mViewH4.setText(timelist[9]);
+						TextView mViewM4 = (TextView)findViewById(R.id.TextViewMin4);
+						mViewM4.setText(timelist[10]);
+						TextView mViewS4 = (TextView)findViewById(R.id.TextViewSecond4);
+						mViewS4.setText(timelist[11]);
+
+						TextView mViewP1 = (TextView)findViewById(R.id.TextViewPercent1);
+						mViewP1.setText(timelist[12]+"%");
+						TextView mViewP2 = (TextView)findViewById(R.id.TextViewPercent2);
+						mViewP2.setText(timelist[13]+"%          ");
+						TextView mViewP3 = (TextView)findViewById(R.id.TextViewPercent3);
+						mViewP3.setText(timelist[14]+"%");
+						TextView mViewP4 = (TextView)findViewById(R.id.TextViewPercent4);
+						mViewP4.setText(timelist[15]+"%");
+
+
+
+						//TextView mView1 = (TextView)findViewById(R.id.add_log);
+						//mView1.setText(strTime);
+						break;
 
 					case MSG_DATA_CHANGE:
 						int color = msg.arg1;
@@ -109,11 +156,13 @@ public class BluetoothControlAcitvity extends Activity
 								builder.setSpan(colorSpan, 0, 3, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 								break;
 						}
-						TextView tView = new TextView(context);
-						tView.setText(builder);
-						LinearLayout layout = (LinearLayout)findViewById(R.id.scroll_layout);
-						layout.addView(tView);
-						scrollView.fullScroll(ScrollView.FOCUS_DOWN);
+						//TextView tView = new TextView(context);
+						//tView.setText(builder);
+						//LinearLayout layout = (LinearLayout)findViewById(R.id.scroll_layout);
+						//layout.addView(tView);
+						//scrollView.fullScroll(ScrollView.FOCUS_DOWN);
+						TextView mViewLog = (TextView)findViewById(R.id.add_log);
+						mViewLog.setText(strData);
 						break;
 					default:
 						break;
@@ -129,11 +178,19 @@ public class BluetoothControlAcitvity extends Activity
 			public void onClick(View v) 
 			{
 				LinearLayout layout = (LinearLayout)findViewById(R.id.scroll_layout);
-				layout.removeAllViews();
+				//layout.removeAllViews();
 				TextView rxView = (TextView)findViewById(R.id.Rx);
 				rxView.setText("Rx:"+0);
 				TextView txView = (TextView)findViewById(R.id.Tx);
 				txView.setText("Tx:"+0);
+
+				byte [] data={0x3C,
+                        0x0,0x03,0x10,0x10,
+                        0x0,0x02,0x05,0x04,
+                        0x0,0x03,0x14,0x1F,
+                        0x0,0x03,0x5,0x7F,
+                        0x65,0x3E};
+				showUI(data);
 			}
 		});
         
@@ -266,22 +323,42 @@ public class BluetoothControlAcitvity extends Activity
 
 	void showUI(final  byte[] bytes)
 	{
-		if(bytes == null || bytes.length < 21)
+		if(bytes == null || bytes.length < 19)
 			return ;
 
-		if(bytes[0]==0x3&&bytes[1]==0xc&&bytes[19]==0x3&&bytes[20]==0xe) {
+		if(bytes[0]==0x3c&&bytes[18]==0x3e) {
 
 			StringBuffer stringBuffer = new StringBuffer(bytes.length);
 
+			int[] P={0,0,0,0,0};
 			for(int i=0;i<4;i++){
-				int time = bytes[5+i*4] & 0xFF |
-						(bytes[4+i*4] & 0xFF) << 8 |
-						(bytes[3+i*4] & 0xFF) << 16 |
-						(bytes[2+i*4] & 0xFF) << 24;
+				int time = bytes[4+i*4] & 0xFF |
+						(bytes[3+i*4] & 0xFF) << 8 |
+						(bytes[2+i*4] & 0xFF) << 16 |
+						(bytes[1+i*4] & 0xFF) << 24;
 
-				stringBuffer.append(time);
+
+
+				int T=time/125;
+				P[i]=T;
+				if(1!=i)
+					P[4]+=T;
+
+				int h=T/3600;
+				int m=T/60-h*60;
+				int s=T%60;
+				stringBuffer.append(h);
+				stringBuffer.append(" ");
+				stringBuffer.append(m);
+				stringBuffer.append(" ");
+				stringBuffer.append(s);
 				stringBuffer.append(" ");
 			}
+			for(int i=0;i<4;i++){
+				stringBuffer.append((int)(P[i]*100/P[4]));
+				stringBuffer.append(" ");
+			}
+
 
 			Message message = new Message();
 			message.what = MSG_DATA_TIME;
