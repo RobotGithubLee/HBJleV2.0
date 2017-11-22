@@ -1,7 +1,23 @@
 [
     {
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_public.png",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\drawable-xhdpi\\icon_public.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_qunliao.png",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\drawable-xhdpi\\icon_qunliao.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_marka.png",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\drawable-xhdpi\\icon_marka.png"
+    },
+    {
         "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
         "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_addfriend.png",
+        "source": "E:\\AndroidProject\\HJBleV2.0\\app\\src\\main\\res\\drawable-xhdpi\\icon_addfriend.png"
     },
     {
         "merged": "E:\\AndroidProject\\HJBleV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\hongjia.png",

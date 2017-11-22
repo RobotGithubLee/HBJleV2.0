@@ -10,6 +10,11 @@ package com.example.testble;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int black=0x7f060000;
+        public static final int black2=0x7f060001;
+        public static final int white=0x7f060002;
+    }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
@@ -18,41 +23,52 @@ public final class R {
         public static final int hongjia=0x7f020000;
         public static final int ic_launcher=0x7f020001;
         public static final int icon=0x7f020002;
+        public static final int icon_addfriend=0x7f020003;
+        public static final int icon_marka=0x7f020004;
+        public static final int icon_public=0x7f020005;
+        public static final int icon_qunliao=0x7f020006;
+        public static final int setting_item_selector=0x7f020007;
     }
     public static final class id {
-        public static final int RT_layout=0x7f080016;
-        public static final int Rx=0x7f080018;
-        public static final int TextViewMin1=0x7f080005;
-        public static final int TextViewMin2=0x7f080009;
-        public static final int TextViewMin3=0x7f08000d;
-        public static final int TextViewMin4=0x7f080011;
-        public static final int TextViewPercent1=0x7f080007;
-        public static final int TextViewPercent2=0x7f08000b;
-        public static final int TextViewPercent3=0x7f08000f;
-        public static final int TextViewPercent4=0x7f080013;
-        public static final int TextViewSecond1=0x7f080006;
-        public static final int TextViewSecond2=0x7f08000a;
-        public static final int TextViewSecond3=0x7f08000e;
-        public static final int TextViewSecond4=0x7f080012;
-        public static final int TextViewTimeHour1=0x7f080004;
-        public static final int TextViewTimeHour2=0x7f080008;
-        public static final int TextViewTimeHour3=0x7f08000c;
-        public static final int TextViewTimeHour4=0x7f080010;
-        public static final int Tx=0x7f080019;
-        public static final int about_us=0x7f080020;
-        public static final int add_log=0x7f080002;
-        public static final int bottom_layout=0x7f080017;
-        public static final int clear_log=0x7f080003;
-        public static final int device_address=0x7f08001d;
-        public static final int device_name=0x7f08001c;
-        public static final int device_record=0x7f08001e;
-        public static final int menu_refresh=0x7f08001f;
-        public static final int scanBt=0x7f080000;
-        public static final int scroll=0x7f080014;
-        public static final int scroll_layout=0x7f080015;
-        public static final int send=0x7f08001b;
-        public static final int sendData=0x7f08001a;
-        public static final int top_layout=0x7f080001;
+        public static final int HedUpLayout=0x7f090006;
+        public static final int RT_layout=0x7f09001c;
+        public static final int Rx=0x7f09001e;
+        public static final int TextViewMin1=0x7f090003;
+        public static final int TextViewMin11=0x7f09000c;
+        public static final int TextViewMin2=0x7f09000f;
+        public static final int TextViewMin3=0x7f090013;
+        public static final int TextViewMin4=0x7f090017;
+        public static final int TextViewPercent1=0x7f09000d;
+        public static final int TextViewPercent2=0x7f090011;
+        public static final int TextViewPercent3=0x7f090015;
+        public static final int TextViewPercent4=0x7f090019;
+        public static final int TextViewSecond1=0x7f090004;
+        public static final int TextViewSecond2=0x7f090010;
+        public static final int TextViewSecond3=0x7f090014;
+        public static final int TextViewSecond4=0x7f090018;
+        public static final int TextViewTimeHour1=0x7f090002;
+        public static final int TextViewTimeHour11=0x7f09000b;
+        public static final int TextViewTimeHour2=0x7f09000e;
+        public static final int TextViewTimeHour3=0x7f090012;
+        public static final int TextViewTimeHour4=0x7f090016;
+        public static final int Tx=0x7f09001f;
+        public static final int about_us=0x7f090026;
+        public static final int add_log=0x7f090009;
+        public static final int bottom_layout=0x7f09001d;
+        public static final int clear_log=0x7f09000a;
+        public static final int device_address=0x7f090023;
+        public static final int device_name=0x7f090022;
+        public static final int device_record=0x7f090024;
+        public static final int layout_addfriend=0x7f090001;
+        public static final int layout_group=0x7f090005;
+        public static final int layout_public=0x7f090007;
+        public static final int menu_refresh=0x7f090025;
+        public static final int scanBt=0x7f090000;
+        public static final int scroll=0x7f09001a;
+        public static final int scroll_layout=0x7f09001b;
+        public static final int send=0x7f090021;
+        public static final int sendData=0x7f090020;
+        public static final int top_layout=0x7f090008;
     }
     public static final class layout {
         public static final int actionbar_indeterminate_progress=0x7f030000;
@@ -61,34 +77,47 @@ public final class R {
         public static final int list=0x7f030003;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f060000;
-        public static final int ble_not_supported=0x7f060001;
-        public static final int connected=0x7f060002;
-        public static final int disconnected=0x7f060003;
-        public static final int error_bluetooth_not_supported=0x7f060004;
-        public static final int init_card=0x7f060005;
-        public static final int label_data=0x7f060006;
-        public static final int label_device_address=0x7f060007;
-        public static final int label_state=0x7f060008;
-        public static final int menu_connect=0x7f060009;
-        public static final int menu_disconnect=0x7f06000a;
-        public static final int menu_scan=0x7f06000b;
-        public static final int menu_stop=0x7f06000c;
-        public static final int no_data=0x7f06000d;
-        public static final int title_devices=0x7f06000e;
-        public static final int unknown_characteristic=0x7f06000f;
-        public static final int unknown_device=0x7f060010;
-        public static final int unknown_service=0x7f060011;
-        public static final int wake_up=0x7f060012;
+        public static final int HerdUpTime=0x7f070000;
+        public static final int app_name=0x7f070001;
+        public static final int ble_not_supported=0x7f070002;
+        public static final int connected=0x7f070003;
+        public static final int disconnected=0x7f070004;
+        public static final int error_bluetooth_not_supported=0x7f070005;
+        public static final int group_chats=0x7f070006;
+        public static final int init_card=0x7f070007;
+        public static final int label_data=0x7f070008;
+        public static final int label_device_address=0x7f070009;
+        public static final int label_state=0x7f07000a;
+        public static final int menu_connect=0x7f07000b;
+        public static final int menu_disconnect=0x7f07000c;
+        public static final int menu_scan=0x7f07000d;
+        public static final int menu_stop=0x7f07000e;
+        public static final int no_data=0x7f07000f;
+        public static final int official_accounts=0x7f070010;
+        public static final int recommended_friends=0x7f070011;
+        public static final int title_devices=0x7f070012;
+        public static final int unknown_characteristic=0x7f070013;
+        public static final int unknown_device=0x7f070014;
+        public static final int unknown_service=0x7f070015;
+        public static final int wake_up=0x7f070016;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f040000;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f040001;
+        public static final int MMFontTitleInList=0x7f040002;
+        public static final int MMListItem=0x7f040003;
     }
 }

@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -58,6 +59,8 @@ public class BluetoothControlAcitvity extends Activity
         sendBt = (Button)findViewById(R.id.send);
         sendEdit = (EditText)findViewById(R.id.sendData);
         sendBt.setEnabled(false);
+
+
         
         mble = HolloBluetooth.getInstance(getApplicationContext());	//获取蓝牙实例
         
@@ -79,6 +82,9 @@ public class BluetoothControlAcitvity extends Activity
 
 						TextView mViewH1 = (TextView)findViewById(R.id.TextViewTimeHour1);
 						mViewH1.setText(timelist[0]);
+
+
+
 						TextView mViewM1 = (TextView)findViewById(R.id.TextViewMin1);
 						mViewM1.setText(timelist[1]);
 						TextView mViewS1 = (TextView)findViewById(R.id.TextViewSecond1);
@@ -118,6 +124,7 @@ public class BluetoothControlAcitvity extends Activity
 						TextView mViewP4 = (TextView)findViewById(R.id.TextViewPercent4);
 						mViewP4.setText(timelist[15]+"%");
 
+						mViewH1.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
 
 
 						//TextView mView1 = (TextView)findViewById(R.id.add_log);
@@ -385,7 +392,8 @@ public class BluetoothControlAcitvity extends Activity
 		public void OnReceiveData(byte[] recvData)
 		{
 			showUI(recvData);
-			//addLogText("接收：\r\n      "+ConvertData.bytesToHexString(recvData, false),Color.rgb(139, 0, 255),recvData.length);
+
+			addLogText("接收：\r\n      "+ConvertData.bytesToHexString(recvData, false),Color.rgb(139, 0, 255),recvData.length);
 		}
 	};
 

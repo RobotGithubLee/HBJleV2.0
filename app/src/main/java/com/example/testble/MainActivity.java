@@ -2,6 +2,7 @@ package com.example.testble;
 
 import java.util.ArrayList;
 
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
@@ -37,6 +38,7 @@ public class MainActivity extends ListActivity
     
     private String TAG = "MainActivity";
     private Button mScanBt;
+
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -44,14 +46,15 @@ public class MainActivity extends ListActivity
 		super.onCreate(savedInstanceState);
 		getActionBar().setTitle(R.string.title_devices);
 		setContentView(R.layout.activity_main);
-		
+
+
 		//获取蓝牙实例
 		mble = HolloBluetooth.getInstance(getApplicationContext());
 		//判断本设备是否支持蓝牙ble，并连接本地蓝牙设备
 		if(!mble.isBleSupported() || !mble.connectLocalDevice())
 		{
 			Toast.makeText(this, "BLE is not supported on the device",Toast.LENGTH_SHORT).show();
-			finish();
+			//finish();
 			return ;
 		}
 		mScanBt = (Button)findViewById(R.id.scanBt);
@@ -70,13 +73,14 @@ public class MainActivity extends ListActivity
 					mLeDeviceListAdapter.clear();
 		            scanLeDevice(true);
 		            mScanBt.setText("停止扫描");
+
 				}
 
 			}
 		});
 		
 	}
-	
+
 
 	@Override
 	protected void onResume()
@@ -97,6 +101,7 @@ public class MainActivity extends ListActivity
         setListAdapter(mLeDeviceListAdapter);
 		scanLeDevice(true);		//开始蓝牙扫描
 		mScanBt.setText("停止扫描");
+
 	}
 	
 
@@ -153,11 +158,13 @@ public class MainActivity extends ListActivity
         if (!mScanning) 
         {
             menu.findItem(R.id.menu_refresh).setActionView(null);
-        } 
+            menu.findItem(R.id.about_us).setTitle("扫描");
+        }
         else 
         {
             menu.findItem(R.id.menu_refresh).setActionView(
                     R.layout.actionbar_indeterminate_progress);
+            menu.findItem(R.id.about_us).setTitle("停止");
         }
         return true;
 	}
@@ -168,16 +175,27 @@ public class MainActivity extends ListActivity
         switch (item.getItemId()) 
         {
         case R.id.about_us:
-        	AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        	builder.setMessage("http://www.tshjdz.com\r\nHJ-580 BLE串口透传测试程序（For Android,V1.7）\r\n唐山宏佳电子科技有限公司")
-        	       .setCancelable(false)
-        	       .setNegativeButton("确定", new DialogInterface.OnClickListener() {
-        	           public void onClick(DialogInterface dialog, int id) {
-        	                dialog.cancel();
-        	           }
-        	       });
-        	AlertDialog alert = builder.create();
-        	alert.show();
+//        	AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        	builder.setMessage("Copyright@ Shenzhen Institutes of Advanced Technology\r\nAuthor: Lee）\r\nEamil:741204826@qq.com")
+//        	       .setCancelable(false)
+//        	       .setNegativeButton("确定", new DialogInterface.OnClickListener() {
+//        	           public void onClick(DialogInterface dialog, int id) {
+//        	                dialog.cancel();
+//        	           }
+//        	       });
+//        	AlertDialog alert = builder.create();
+//        	alert.show();
+            if(mScanning)
+            {
+                scanLeDevice(false);
+                mScanBt.setText("开始扫描");
+            }
+            else
+            {
+                mLeDeviceListAdapter.clear();
+                scanLeDevice(true);
+                mScanBt.setText("停止扫描");
+            }
             break;
         }
         return true;
